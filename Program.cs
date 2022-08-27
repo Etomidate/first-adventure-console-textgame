@@ -2,6 +2,7 @@
 Choose Your Own Adventure Game. 
 */
 
+
 internal class Program
 {
     private static void Main(string[] args)
@@ -32,7 +33,7 @@ internal class Program
             {
                 Console.WriteLine("Not much of an adventure if we don't \n" +
                 "leave our room! \n THE END");
-                Environment.Exit(0);
+                    Environment.Exit(0);
             }
             else if(noiseChoice == "YES")
             {
