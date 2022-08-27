@@ -1,0 +1,15 @@
+/Users/cameronmarston/Desktop/GitHub repos/first-adventure-console-textgame/obj/Debug/net6.0/first-adventure-console-textgame.csproj.AssemblyReference.cache
+/Users/cameronmarston/Desktop/GitHub repos/first-adventure-console-textgame/obj/Debug/net6.0/first-adventure-console-textgame.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cameronmarston/Desktop/GitHub repos/first-adventure-console-textgame/obj/Debug/net6.0/first-adventure-console-textgame.AssemblyInfoInputs.cache
+/Users/cameronmarston/Desktop/GitHub repos/first-adventure-console-textgame/obj/Debug/net6.0/first-adventure-console-textgame.AssemblyInfo.cs
+/Users/cameronmarston/Desktop/GitHub repos/first-adventure-console-textgame/obj/Debug/net6.0/first-adventure-console-textgame.csproj.CoreCompileInputs.cache
+/Users/cameronmarston/Desktop/GitHub repos/first-adventure-console-textgame/bin/Debug/net6.0/first-adventure-console-textgame
+/Users/cameronmarston/Desktop/GitHub repos/first-adventure-console-textgame/bin/Debug/net6.0/first-adventure-console-textgame.deps.json
+/Users/cameronmarston/Desktop/GitHub repos/first-adventure-console-textgame/bin/Debug/net6.0/first-adventure-console-textgame.runtimeconfig.json
+/Users/cameronmarston/Desktop/GitHub repos/first-adventure-console-textgame/bin/Debug/net6.0/first-adventure-console-textgame.dll
+/Users/cameronmarston/Desktop/GitHub repos/first-adventure-console-textgame/bin/Debug/net6.0/first-adventure-console-textgame.pdb
+/Users/cameronmarston/Desktop/GitHub repos/first-adventure-console-textgame/obj/Debug/net6.0/first-adventure-console-textgame.dll
+/Users/cameronmarston/Desktop/GitHub repos/first-adventure-console-textgame/obj/Debug/net6.0/refint/first-adventure-console-textgame.dll
+/Users/cameronmarston/Desktop/GitHub repos/first-adventure-console-textgame/obj/Debug/net6.0/first-adventure-console-textgame.pdb
+/Users/cameronmarston/Desktop/GitHub repos/first-adventure-console-textgame/obj/Debug/net6.0/first-adventure-console-textgame.genruntimeconfig.cache
+/Users/cameronmarston/Desktop/GitHub repos/first-adventure-console-textgame/obj/Debug/net6.0/ref/first-adventure-console-textgame.dll
