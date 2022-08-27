@@ -9,7 +9,7 @@ internal class Program
         //variables
         string userName;
         string noiseChoice;
-        string doorChoice;
+        string doorChoice = " ";
         string riddleAnswer = " ";
         string keyChoice = " ";
         /* the mysterious noise */
@@ -32,15 +32,20 @@ internal class Program
             {
                 Console.WriteLine("Not much of an adventure if we don't \n" +
                 "leave our room! \n THE END");
+                Environment.Exit(0);
             }
-            else if(noiseChoice == "YES");
+            else if(noiseChoice == "YES")
             {
                 Console.WriteLine("You walk into the hallway and see a \n" + 
                 "light coming from under a door down the hall. You walk \n" +
                 "towards it. \n DO YOU OPEN IT OR KNOCK?");
             }
+            else
+            {
+                Console.WriteLine("You didn't type YES or NO! \n Apparently your too dumb for games so.... \n GOODBYE!");
+            }
 
-            Console.Write("Type OPEN or KNOCK");
+            Console.Write("Type OPEN or KNOCK \n");
             doorChoice = Console.ReadLine();
             doorChoice = doorChoice.ToUpper();
 
@@ -70,7 +75,8 @@ internal class Program
                 Console.WriteLine("The door is locked! \n See if one of your"+
                 "three keys will open it.");
                 Console.Write("Your have three keys numbered 1-3 \n"+
-                "Type the numbe of the key you would like to use");
+                "Type the numbe of the key you would like to use \n");
+                keyChoice = Console.ReadLine();
                 keyChoice = keyChoice.ToUpper();
                 switch(keyChoice)
                 {
@@ -88,7 +94,9 @@ internal class Program
                         "doesn't open. \n THE END");
                         break;
                     default:
-                        Console.WriteLine("You only have keys 1-3! Type the number of the key!");
+                        Console.WriteLine("You only have keys 1-3! Guess you are not smart enough to type a /n"+
+                        "number... \n \n so... \n \n  GOODBYE! \n \n");
+                        Environment.Exit(0);
                     break;
                 }
             }
