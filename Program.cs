@@ -76,30 +76,35 @@ internal class Program
                 Console.WriteLine("The door is locked! \n See if one of your"+
                 "three keys will open it.");
                 Console.Write("Your have three keys numbered 1-3 \n"+
-                "Type the numbe of the key you would like to use \n");
+                "Type the number of the key you would like to use \n");
                 keyChoice = Console.ReadLine();
                 keyChoice = keyChoice.ToUpper();
+               
+                while (keyChoice != "1" && keyChoice != "2" && keyChoice != "3")
+                {
+                    Console.WriteLine("You only have keys 1-3. Enter the key number you actually have...TESTTTTTTTT");
+                    keyChoice = Console.ReadLine();
+                    keyChoice = keyChoice.ToUpper();
+                }
+                
                 switch(keyChoice)
                 {
                     case "1":
-                    Console.WriteLine("You choose the first key. \n"+
+                        Console.WriteLine("You choose the first key. \n"+
                         "Lucky choice! \n The door opens and NOTHING is there. \n"+
                         "Strange... \n THE END");
                         break;
                     case "2":
                         Console.WriteLine("You choose the second key. \n The door"+
                         "doesn't open. \n THE END");
-                        break;
+                    break;
                     case "3":
                         Console.WriteLine("You choose the third key. \n The door"+
                         "doesn't open. \n THE END");
-                        break;
-                    default:
-                        Console.WriteLine("You only have keys 1-3! Guess you are not smart enough to type a /n"+
-                        "number... \n \n so... \n \n  GOODBYE! \n \n");
-                        Environment.Exit(0);
-                    break;
+                    break;      
                 }
+                
+                
             }
 }
 }
