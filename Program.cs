@@ -79,27 +79,37 @@ internal class Program
                 "Type the numbe of the key you would like to use \n");
                 keyChoice = Console.ReadLine();
                 keyChoice = keyChoice.ToUpper();
+                
+                while((!keyChoice.Contains("1") && keyChoice.Contains("2") && keyChoice.Contains("3")))
+                {
+                    Console.WriteLine("You only have keys 1-3. Enter the key number you actually have...");
+                    keyChoice = Console.ReadLine();
+                    keyChoice = keyChoice.ToUpper();
+                    break;
+                }
                 switch(keyChoice)
                 {
                     case "1":
-                    Console.WriteLine("You choose the first key. \n"+
+                        Console.WriteLine("You choose the first key. \n"+
                         "Lucky choice! \n The door opens and NOTHING is there. \n"+
                         "Strange... \n THE END");
                         break;
                     case "2":
                         Console.WriteLine("You choose the second key. \n The door"+
                         "doesn't open. \n THE END");
-                        break;
+                    break;
                     case "3":
                         Console.WriteLine("You choose the third key. \n The door"+
                         "doesn't open. \n THE END");
-                        break;
-                    default:
-                        Console.WriteLine("You only have keys 1-3! Guess you are not smart enough to type a /n"+
-                        "number... \n \n so... \n \n  GOODBYE! \n \n");
-                        Environment.Exit(0);
                     break;
+                        /*default:
+                            Console.WriteLine("You only have keys 1-3! Guess you are not smart enough to type a /n"+
+                            "number... \n \n so... \n \n  GOODBYE! \n \n");
+                            Environment.Exit(0); 
+                        break; */
                 }
+                
+                
             }
 }
 }
